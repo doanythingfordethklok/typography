@@ -1,0 +1,18 @@
+{
+  "name": "typography",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "elm-hot": "^1.1.1",
+    "marked": "^0.7.0",
+    "materialize-css": "^1.0.0",
+    "node-elm-compiler": "^5.0.4",
+    "parcel-bundler": "^1.12.3",
+    "sanitize.css": "^11.0.0",
+    "sass": "^1.22.9"
+  },
+  "scripts": {
+    "dev": "parcel serve -p 8085 ./src/index.html"
+  }
+}
