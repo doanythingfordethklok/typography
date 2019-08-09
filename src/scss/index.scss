@@ -1,49 +1,49 @@
-// @import "materialize-css/sass/components/color-variables";
-// @import "vars.scss";
-// @import "mixins.scss";
-// @import "sanitize.css/sanitize.css";
-// @import "sanitize.css/typography.css";
-// @import "type-scale.scss";
+@import "materialize-css/sass/components/color-variables";
+@import "vars.scss";
+@import "mixins.scss";
+@import "sanitize.css/sanitize.css";
+@import "sanitize.css/typography.css";
+@import "type-scale.scss";
 
-// // ------ Responsive font sizes as recommended by Material Design
-// body{
-//   background-color: color("grey", "lighten-5");
-//   background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
-//   color: $off-black;
+// ------ Responsive font sizes as recommended by Material Design
+body{
+  background-color: color("grey", "lighten-5");
+  background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
+  color: $off-black;
   
-//   @media only screen and (min-width: 0) {
-//     font-size: 14px;
-//   }
+  @media only screen and (min-width: 0) {
+    font-size: 14px;
+  }
 
-//   @media only screen and (min-width: $medium-screen) {
-//     font-size: 14.5px;
-//   }
+  @media only screen and (min-width: $medium-screen) {
+    font-size: 14.5px;
+  }
 
-//   @media only screen and (min-width: $large-screen) {
-//     font-size: 15px;
-//   }
-// }
+  @media only screen and (min-width: $large-screen) {
+    font-size: 15px;
+  }
+}
 
-// a {
-//   color: $primary-color;
+a {
+  color: $primary-color;
 
-//   &:visited {
-//     color: color("pink", "darken-3");
-//   }
-// }
+  &:visited {
+    color: color("pink", "darken-3");
+  }
+}
 
-// code {
-//   background-color: color("brown", "lighten-5");
-//   color: color("blue-grey", "base");
-// }
+code {
+  background-color: color("brown", "lighten-5");
+  color: color("blue-grey", "base");
+}
 
-// pre {
-//   line-height: 1.8;
-//   border: solid 1px color('brown', 'lighten-4');
-//   border-radius: 3px;
-//   background-color: color("brown", "lighten-5");
-//   padding: 3px 5px;
-// }
+pre {
+  line-height: 1.8;
+  border: solid 1px color('brown', 'lighten-4');
+  border-radius: 3px;
+  background-color: color("brown", "lighten-5");
+  padding: 3px 5px;
+}
 
-// @import 'app_stuff.scss';
-// @import "snackbar.scss";
+@import 'app_stuff.scss';
+@import "snackbar.scss";
